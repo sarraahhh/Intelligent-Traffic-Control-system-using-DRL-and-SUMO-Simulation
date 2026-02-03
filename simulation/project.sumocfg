@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="project.net.xml"/>
+        <route-files value="project.rou.xml"/>
+        <additional-files value="detectors.add.xml"/>
+    </input>
+    
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+    
+    <processing>
+        <max-num-teleports value="10"/>
+        <max-depart-delay value="1000"/>
+        <time-to-teleport value="300"/>
+    </processing>
+    
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</sumoConfiguration>

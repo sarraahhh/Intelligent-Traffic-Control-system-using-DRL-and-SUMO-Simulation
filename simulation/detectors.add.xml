@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Lane Area Detectors Configuration - STOP LINE ALIGNED
+    
+    Edge lengths from your network:
+    - E2C: ~63.20m
+    - W2C: ~63.50m  
+    - N2C: ~41.48m
+    - S2C: ~43.03m
+    
+    Detector placement strategy:
+    - Detectors END at the stop line (junction entry)
+    - Start position = edge_length - detector_length
+    - 30m length captures the queue area before the stop line
+    
+    Formula: pos = edge_length - detector_length - safety_margin
+    Safety margin: ~3m to account for vehicle length at stop line
+-->
+<additional>
+    <!-- East to Center (E2C) - 4 lanes | Edge length: 63.20m -->
+    <!-- Detector: 30m long, ending ~3m before junction -->
+    <!-- pos = 63.20 - 30 - 3 = 30.20 -->
+    <laneAreaDetector id="det_E2C_0" lane="E2C_0" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_E2C_1" lane="E2C_1" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_E2C_2" lane="E2C_2" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_E2C_3" lane="E2C_3" pos="30" length="30" freq="1" file="detector_output.xml" />
+
+    <!-- West to Center (W2C) - 4 lanes | Edge length: 63.50m -->
+    <!-- Detector: 30m long, ending ~3m before junction -->
+    <!-- pos = 63.50 - 30 - 3 = 30.50 -->
+    <laneAreaDetector id="det_W2C_0" lane="W2C_0" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_W2C_1" lane="W2C_1" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_W2C_2" lane="W2C_2" pos="30" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_W2C_3" lane="W2C_3" pos="30" length="30" freq="1" file="detector_output.xml" />
+
+    <!-- North to Center (N2C) - 4 lanes | Edge length: 41.48m -->
+    <!-- Detector: 30m long, ending ~3m before junction -->
+    <!-- pos = 41.48 - 30 - 3 = 8.48 -->
+    <laneAreaDetector id="det_N2C_0" lane="N2C_0" pos="8" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_N2C_1" lane="N2C_1" pos="8" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_N2C_2" lane="N2C_2" pos="8" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_N2C_3" lane="N2C_3" pos="8" length="30" freq="1" file="detector_output.xml" />
+
+    <!-- South to Center (S2C) - 4 lanes | Edge length: 43.03m -->
+    <!-- Detector: 30m long, ending ~3m before junction -->
+    <!-- pos = 43.03 - 30 - 3 = 10.03 -->
+    <laneAreaDetector id="det_S2C_0" lane="S2C_0" pos="10" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_S2C_1" lane="S2C_1" pos="10" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_S2C_2" lane="S2C_2" pos="10" length="30" freq="1" file="detector_output.xml" />
+    <laneAreaDetector id="det_S2C_3" lane="S2C_3" pos="10" length="30" freq="1" file="detector_output.xml" />
+</additional>

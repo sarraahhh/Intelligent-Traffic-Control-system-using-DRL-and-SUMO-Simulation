@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-54.82,-64.11,105.81,54.35" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":center_0" function="internal">
+        <lane id=":center_0_0" index="0" speed="13.89" length="34.01" shape="42.74,6.82 8.68,6.99"/>
+        <lane id=":center_0_1" index="1" speed="13.89" length="34.01" shape="42.70,3.62 8.68,3.79"/>
+        <lane id=":center_0_2" index="2" speed="13.89" length="34.01" shape="42.67,0.42 8.68,0.59"/>
+        <lane id=":center_0_3" index="3" speed="13.89" length="34.01" shape="42.64,-2.78 8.68,-2.61"/>
+    </edge>
+
+    <edge id=":center_4" function="internal">
+        <lane id=":center_4_0" index="0" speed="13.89" length="34.15" shape="36.88,-21.13 36.56,13.15"/>
+        <lane id=":center_4_1" index="1" speed="13.89" length="34.15" shape="33.68,-21.12 33.36,13.08"/>
+        <lane id=":center_4_2" index="2" speed="13.89" length="34.15" shape="30.48,-21.10 30.16,13.00"/>
+        <lane id=":center_4_3" index="3" speed="13.89" length="34.15" shape="27.28,-21.09 26.96,12.92"/>
+    </edge>
+
+    <edge id=":center_8" function="internal">
+        <lane id=":center_8_0" index="0" speed="13.89" length="33.88" shape="8.68,-15.41 42.52,-15.58"/>
+        <lane id=":center_8_1" index="1" speed="13.89" length="33.88" shape="8.68,-12.21 42.55,-12.38"/>
+        <lane id=":center_8_2" index="2" speed="13.89" length="33.88" shape="8.68,-9.01 42.58,-9.18"/>
+        <lane id=":center_8_3" index="3" speed="13.89" length="33.88" shape="8.68,-5.81 42.61,-5.98"/>
+    </edge>
+
+    <edge id=":center_12" function="internal">
+        <lane id=":center_12_0" index="0" speed="13.89" length="33.80" shape="14.19,12.62 14.50,-21.04"/>
+        <lane id=":center_12_1" index="1" speed="13.89" length="33.80" shape="17.39,12.70 17.70,-21.05"/>
+        <lane id=":center_12_2" index="2" speed="13.89" length="33.80" shape="20.59,12.77 20.90,-21.07"/>
+        <lane id=":center_12_3" index="3" speed="13.89" length="33.80" shape="23.78,12.85 24.10,-21.08"/>
+    </edge>
+
+    <tlLogic id="center" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGGrrrrGGGGrrrr"/>
+        <phase duration="3" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="42" state="rrrrGGGGrrrrGGGG"/>
+        <phase duration="3" state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+
+    
+
+</net>
