@@ -22,6 +22,7 @@ model.eval()
 
 env = TrafficEnv()
 state = env.reset()
+input(" SUMO GUI is open. Click ▶ Play in SUMO, then press ENTER here to start the agent...")
 done = False
 
 total_reward = 0

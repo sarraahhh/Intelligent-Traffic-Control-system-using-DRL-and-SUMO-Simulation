@@ -40,5 +40,5 @@ python train.py
 ```
 ### Run the simulation 
 ```bash 
-python simulation.py
+python run_simulation.py
 ```
