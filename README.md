@@ -42,3 +42,7 @@ python train.py
 ```bash 
 python run_simulation.py
 ```
+
+
+### Training Graphs 
+<img width="1000" height="800" alt="Traffic signal graph" src="https://github.com/user-attachments/assets/d20caacc-4447-4f6f-b01b-dac38dd464e7" />
